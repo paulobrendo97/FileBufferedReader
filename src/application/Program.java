@@ -14,7 +14,7 @@ public class Program {
 		
 		try {
 			fr = new FileReader(path);
-			br = new BufferedReader(fr);
+			br  = new BufferedReader(fr);
 			
 			String line = br.readLine();
 			
